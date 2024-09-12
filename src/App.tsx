@@ -67,7 +67,7 @@ function App() {
   const physisiRef = useRef<HTMLDivElement>(null);
   const redesSocialesRef = useRef<HTMLDivElement>(null);
 
-  const inicioRef = useRef<HTMLDivElement>(null);
+  const contactoRef = useRef<HTMLDivElement>(null);
 
   // Función para scrollear al componente deseado
   const scrollToComponent = (ref: React.RefObject<HTMLDivElement>) => {
@@ -103,7 +103,7 @@ function App() {
         <ScrollContext.Provider
           value={{
             scrollToComponent,
-            refs: { sobreMiRef, physisiRef, redesSocialesRef, inicioRef },
+            refs: { sobreMiRef, physisiRef, redesSocialesRef, contactoRef },
           }}
         >
           {isOpen && <Desplegable />}
@@ -125,7 +125,7 @@ function App() {
           <div ref={physisiRef}>
             <QueEs />
           </div>
-          <div>
+          <div ref={contactoRef}>
             <Contact />
           </div>
           <Footer />
