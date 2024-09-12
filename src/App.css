@@ -1,38 +1,47 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+    font-family: 'Chapaza';
+    src: url('../src/assets/fonts/Chapaza.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  @font-face {
+    font-family: 'Inter-bold';
+    src: url('../src/assets/fonts/Inter_24pt-Regular.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+    /* Specify the correct path to the font files */
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+.chapaza {
+    font-family: 'Chapaza', sans-serif;
+}
+
+.button-gradient {
+    background: linear-gradient(180deg, #70A3E5 0%, #4888DC 100%);
+
+}
+
+.--fondoDesktop {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: -150px;
+}
+
+.input-shadow {
+    box-shadow: inset 0px 0px 37px -10px rgba(0,0,0,0.27);
+
+    padding: 6px;
+    font-size: 12px;
+}
+
+.header {
+box-shadow: inset 0px 0px 29px 0px rgba(0,0,0,0.05);
+
+}
+
+.inter {
+    font-family: 'Inter-bold';
 }
