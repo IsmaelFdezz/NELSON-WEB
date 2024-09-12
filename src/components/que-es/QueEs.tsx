@@ -4,12 +4,8 @@ import logoPhysisWeb from "../../assets/logo-physis-web.png";
 export default function QueEs() {
   return (
     <div>
-      <div className="h-[420px] absolute top-[1355px] rounded-t-[25px] bg-white z-20 overflow-hidden lg:relative lg:top-0 lg:hidden">
-        <img
-          src={logoPhysis}
-          alt="Physis"
-          className="w-[312px] left-[138px] top-[24px] opacity-20 absolute"
-        />
+      <div className="h-[420px]  top-[1355px] rounded-t-[25px] bg-white z-20 overflow-hidden lg:relative lg:top-0 lg:hidden">
+    
         <div className="flex flex-col py-[46px] px-[29px] items-center font-bold justify-between h-full">
           <h3 className="text-[40px] text-[#58595B] text-center ">
             Qué es Physis?

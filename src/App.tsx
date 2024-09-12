@@ -1,4 +1,4 @@
-import React, { useState, createContext, useRef } from "react";
+import React, { useState, createContext, useRef, useEffect } from "react";
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -24,6 +24,23 @@ export const ScrollContext = createContext<any>(null);
 function App() {
   const [isOpen, setIsOpen] = useState(false);
 
+  const [documentHeight, setDocumentHeight] = useState(0);
+
+useEffect(() => {
+  const updateHeight = () => {
+    setDocumentHeight(document.documentElement.scrollHeight);
+  };
+  
+  // Inicializar altura y agregar listener para cambios de tamaño
+  updateHeight();
+  window.addEventListener('resize', updateHeight);
+
+  // Cleanup
+  return () => {
+    window.removeEventListener('resize', updateHeight);
+  };
+}, []);
+
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -42,7 +59,7 @@ function App() {
   };
 
   return (
-    <div className="App bg-[#1B1B1B] overflow-y-hidden">
+    <div className="App min-h-screen bg-[#1B1B1B]">
       {/* Proveedores de MenuContext y ScrollContext */}
       <MenuContext.Provider value={{ isOpen, toggleMenu }}>
         <ScrollContext.Provider
@@ -54,8 +71,8 @@ function App() {
           {isOpen && <Desplegable />}
           {isOpen && (
             <div
-              className="h-[2396px] z-40 absolute w-full bg-black opacity-30 transition-all"
-              style={{ zIndex: "998" }}
+              className="w-full z-40 absolute bg-black opacity-30 transition-all"
+              style={{ height: `${documentHeight}px`, zIndex: "998" }}
             ></div>
           )}
           <Header></Header>

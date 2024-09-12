@@ -2,7 +2,7 @@ import logo from "../../assets/blanco.png"
 
 export default function Contact() {
   return (
-    <div className="z-30 h-[534px] absolute rounded-t-[25px] bg-[#387DB6] top-[1734px] w-full lg:relative lg:top-0 ">
+    <div className="z-30 h-[534px] rounded-t-[25px] bg-[#387DB6] top-[1734px] w-full lg:relative lg:top-0 ">
       <div className="flex flex-col m-[37px] h-[425px] lg:flex-row ">
         <div className="h-[68px] w-full flex flex-col items-center lg:w-1/2 lg:hidden">
           <h3 className="font-bold text-[40px] text-white">Contácto</h3>
@@ -19,7 +19,7 @@ export default function Contact() {
           </p>
         </div>
         <form className="flex gap-2 items-center flex-col h-full justify-between mt-[24px]">
-          <div className="flex gap-2">
+          <div className="flex gap-2 flex-wrap">
             <div className="w-min">
               <label className="text-[10px] text-white ml-4 ">Nombre</label>
               <input className="w-[154px] h-[31px] rounded-[15px] input-shadow" type="text" />
@@ -33,7 +33,7 @@ export default function Contact() {
           <div className="flex">
           <div className="w-min">
               <label className="text-[10px] text-white ml-4">E-mail</label>
-              <input className="w-[316px] input-shadow h-[31px] rounded-[15px]" type="text" />
+              <input className="w-[316px] input-shadow h-[31px] rounded-[15px] max-w-[316px]" type="text" />
             </div>
           </div>
 
