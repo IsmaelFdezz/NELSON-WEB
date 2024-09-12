@@ -23,7 +23,7 @@ export default function Home() {
         className="w-full h-full bg-cover bg-center items-center p-20 justify-end hidden lg:flex --fondoDesktop"
         style={{ backgroundImage: `url(${BackgroundImgDesk})` }}
       >
-        <div className="flex flex-col items-center mb-[100px]">
+        <div className="flex flex-col items-center mb-[100px] mr-44">
           <h3 className="chapaza text-[90px] h-[65px] text-white font-[400] leading-[63.67px]">
             Adrian Sfeir
           </h3>
