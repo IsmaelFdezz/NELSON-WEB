@@ -8,7 +8,7 @@ export default function QuienSoy() {
         <img
           src={adrianImage}
           alt="Adrian Sfeir"
-          className="h-full rounded-[25px]"
+          className="h-full rounded-[25px] max-w-[260px] max-h-[260px]"
         />
       </div>
       <div className="bg-[#363636] w-[257px] h-[257px] rounded-[25px] lg:w-[462px] lg:h-[462px]">
