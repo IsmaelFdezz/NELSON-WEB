@@ -20,25 +20,25 @@ export default function Contact() {
         </div>
         <form className="flex gap-2 items-center flex-col h-full justify-between mt-[24px]">
           <div className="flex gap-2 flex-wrap justify-center">
-            <div className="w-min">
+            <div className="flex flex-col">
               <label className="text-[14px] text-white ml-4 inter">Nombre</label>
               <input className="w-[316px] lg:w-[266px] lg:h-[53px] h-[31px] rounded-[15px] input-shadow inter" type="text" />
             </div>
-            <div className="w-min">
+            <div className="flex flex-col">
               <label className="text-[14px] text-white ml-4 inter">Apellido</label>
               <input className="w-[316px] lg:w-[266px] lg:h-[53px] input-shadow h-[31px] rounded-[15px]" type="text" />
             </div>
           </div>
 
           <div className="flex">
-          <div className="w-min">
+          <div className="flex flex-col">
               <label className="text-[14px] text-white ml-4 inter">E-mail</label>
               <input className="w-[316px] lg:w-[546px] lg:h-[53px] input-shadow h-[31px] rounded-[15px] max-w-[316px] lg:max-w-[546px]" type="text" />
             </div>
           </div>
 
           <div className="flex">
-            <div className="w-min">
+            <div className="flex flex-col">
               <label className="text-[14px] text-white ml-4 inter">Escribe un mensaje</label>
               <textarea className="w-[316px] lg:w-[546px] lg:h-[240px] h-[139px] input-shadow rounded-[15px]"></textarea>
             </div>
