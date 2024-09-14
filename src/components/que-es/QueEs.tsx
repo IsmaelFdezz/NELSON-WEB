@@ -28,7 +28,7 @@ export default function QueEs() {
         </div>
       </div>
 
-      <div className="bg-white z-20 overflow-hidden hidden lg:flex flex-col relative h-auto" >
+      <div className="bg-white z-20 overflow-hidden hidden py-20 lg:flex flex-col relative h-auto" >
         <img 
           src={logoPhysis}
           alt="Physis"

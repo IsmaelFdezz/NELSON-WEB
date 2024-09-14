@@ -4,14 +4,14 @@ import logo from "../../assets/blanco.png";
 export default function QuienSoy() {
   return (
     <div className="bg-[#1B1B1B] h-[666px] flex flex-col items-center justify-center gap-[37px] relative z-10 lg:flex-row">
-      <div className="w-[257px] lg:w-[462px]">
+      <div className="w-[257px] mr-[27px] lg:mr-0 lg:w-[462px]">
         <img
           src={adrianImage}
           alt="Adrian Sfeir"
-          className="h-full rounded-[25px] max-w-[260px] max-h-[260px] lg:max-w-[462px] lg:max-h-[462px]"
+          className="h-full rounded-[25px] max-w-[285px] max-h-[285px] lg:max-w-[462px] lg:max-h-[462px]"
         />
       </div>
-      <div className="bg-[#363636] w-[257px] h-[257px] rounded-[25px] lg:w-[462px] lg:h-[462px]">
+      <div className="bg-[#363636] w-[285px] h-[285px] rounded-[25px] lg:w-[462px] lg:h-[462px]">
         <div className="flex flex-row items-center m-5 gap-2">
           <button className="w-[85px] h-[24px] bg-[#8F8F8F] rounded-[10px] color text-white text-[12px] lg:w-[120px] lg:h-[32px] font-bold cursor-default inte text-sm">
             Quien soy?
@@ -23,20 +23,39 @@ export default function QuienSoy() {
           />
         </div>
         <div className="m-5 text-white text-[10px] lg:text-ms inter font-bold text-sm hidden lg:flex">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus totam
-          quibusdam expedita, quasi debitis sapiente veniam dolores eum, dolorem
-          saepe dolore quas repellendus maxime pariatur ad a numquam earum
-          molestias. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          Natus totam quibusdam expedita, quasi debitis sapiente veniam dolores
-          eum, dolorem saepe dolore quas repellendus maxime pariatur ad a
-          numquam earum molestias.
+          <ul className="list-disc ml-4">
+            <li className="decoration-dotted">
+              Soy egresado en sistemas de la universidad CAECE y desarrollador
+              de software con más de 25 años de experiencia.
+            </li>
+            <li className="mt-6 decoration-dotted">
+              Debido a mi intensa actividad dentro del departamento de sistemas
+              de Morgan, Benedit y Asociados, Creé la empresa Physis informatica
+              SRL.
+            </li>
+            <li className="mt-6 decoration-dotted">
+              Consolidé la presencia de Physis en el mercado de software
+              agropecuario en nuestro país.
+            </li>
+          </ul>
         </div>
 
-        <div className="m-5 text-white text-[10px] lg:text-ms inter  text-sm  lg:hidden">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus totam
-          quibusdam expedita, quasi debitis sapiente veniam dolores eum, dolorem
-          saepe dolore quas repellendus maxime pariatur ad a numquam earum
-          molestias.
+        <div className="m-5 text-white text-[10px] lg:text-ms inter text-sm lg:hidden">
+        <ul className="list-disc ml-4 text-sm">
+            <li className="decoration-dotted text-xs">
+              Soy egresado en sistemas de la universidad CAECE y desarrollador
+              de software con más de 25 años de experiencia.
+            </li>
+            <li className="mt-4 decoration-dotted text-xs">
+              Debido a mi intensa actividad dentro del departamento de sistemas
+              de Morgan, Benedit y Asociados, Creé la empresa Physis informatica
+              SRL.
+            </li>
+            <li className="mt-4 decoration-dotted text-xs">
+              Consolidé la presencia de Physis en el mercado de software
+              agropecuario en nuestro país.
+            </li>
+          </ul>
         </div>
       </div>
     </div>
