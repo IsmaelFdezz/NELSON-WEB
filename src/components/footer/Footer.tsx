@@ -5,7 +5,7 @@ import Facebook from "../../assets/FACEBOOK.png";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col items-start justify-start bg-[#1B1B1B] h-[148px] w-full top-[2248px] z-40 lg:relative lg:top-0">
+    <div className="flex flex-col items-start justify-start bg-black h-[148px] w-full top-[2248px] z-40 lg:relative lg:top-0">
       <div className="flex gap-5 m-6">
         <a
           href="https://www.instagram.com/adriansfeir/"
