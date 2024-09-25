@@ -20,7 +20,7 @@ export default function Desplegable() {
       </div>
       <div className="h-full w-full pl-[48px]">
         <ul className="mb-5">
-          <li onClick={() => scrollToComponent(refs.sobreMiRef)} className="text-[16px] mb-2 inter">Sobre mí</li>
+          <li onClick={() => scrollToComponent(refs.sobreMiRef)} className="text-[16px] mb-2 inter">Mi perfil</li>
           <li onClick={() => scrollToComponent(refs.physisiRef)} className="text-[16px] mb-2 inter">Physis</li>
           <li onClick={() => scrollToComponent(refs.redesSocialesRef)} className="text-[16px] mb-2 inter">Redes sociales</li>
         </ul>

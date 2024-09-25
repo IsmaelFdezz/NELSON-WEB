@@ -13,8 +13,8 @@ export default function Home() {
           <h3 className="chapaza text-[52px] h-[65px] text-white font-[400] leading-[63.67px]">
             Adrian Sfeir
           </h3>
-          <p className="font-[500] text-[11px] leading-[13.31px] text-white">
-            Socio fundador de Physis informatica SRL.
+          <p className="font-[500] text-[12px] leading-[13.31px] text-white">
+            Fundador y CEO de Physis informatica SRL
           </p>
         </div>
       </div>
@@ -27,8 +27,8 @@ export default function Home() {
           <h3 className="chapaza text-[90px] h-[65px] text-white font-[400] leading-[63.67px]">
             Adrian Sfeir
           </h3>
-          <p className="inter opacity-70 font-[400] mt-4 text-center text-[11px] leading-[13.31px] text-white w-[400px]">
-          Socio fundador de Physis informatica SRL.
+          <p className="inter opacity-70 font-[400] mt-4 text-center text-[14px] leading-[13.31px] text-white w-[400px]">
+            Fundador y CEO de Physis informatica SRL
           </p>
         </div>
       </div>

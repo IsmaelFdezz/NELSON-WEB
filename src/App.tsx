@@ -41,24 +41,6 @@ function App() {
     };
   }, []);
 
-  const [password, setPassword] = useState('');
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
-
-  const correctPassword = 'asf756'; // Define tu contraseña aquí
-
-  const handlePasswordChange = (e: any) => {
-    setPassword(e.target.value);
-  };
-
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    if (password === correctPassword) {
-      setIsAuthenticated(true);
-    } else {
-      alert('Contraseña incorrecta');
-    }
-  };
-
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
@@ -75,26 +57,6 @@ function App() {
       ref.current.scrollIntoView({ behavior: "smooth" });
     }
   };
-
-  if (!isAuthenticated) {
-    return (
-      <div className="flex justify-center items-center h-screen bg-gray-900">
-        <form onSubmit={handleSubmit} className="flex flex-col items-center">
-          <h2 className="text-white text-2xl mb-4">Ingresa la contraseña</h2>
-          <input
-            type="password"
-            value={password}
-            onChange={handlePasswordChange}
-            className="p-2 mb-4 border border-gray-400 rounded"
-            placeholder="Contraseña"
-          />
-          <button type="submit" className="bg-blue-500 text-white py-2 px-4 rounded">
-            Entrar
-          </button>
-        </form>
-      </div>
-    );
-  }
 
   return (
     <div className="App min-h-screen bg-[#1B1B1B]">

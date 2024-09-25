@@ -23,7 +23,7 @@ export default function Header() {
         </div>
 
         <div className="flex justify-end items-center gap-20 mr-12">
-        <span className="inter cursor-pointer" onClick={() => scrollToComponent(refs.sobreMiRef)}>Sobre mí</span>
+        <span className="inter cursor-pointer" onClick={() => scrollToComponent(refs.sobreMiRef)}>Mi perfil</span>
           <span className="inter cursor-pointer" onClick={() => scrollToComponent(refs.physisiRef)}>Physis</span>
           <span className="inter cursor-pointer" onClick={() => scrollToComponent(refs.redesSocialesRef)}>Redes sociales</span>
 
