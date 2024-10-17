@@ -11,7 +11,7 @@ export default function QuienSoy() {
           className="h-full rounded-[25px] max-w-[285px] max-h-[285px] lg:max-w-[462px] lg:max-h-[462px]"
         />
       </div>
-      <div className="bg-[#363636] w-[285px] h-[440px] rounded-[25px] lg:w-[462px] lg:h-[462px]">
+      <div className="bg-[#363636] w-[285px] h-[450px] rounded-[25px] lg:w-[462px] lg:h-[462px]">
         <div className="flex flex-row items-center m-5 gap-2">
           <button className="w-[85px] h-[24px] bg-[#8F8F8F] rounded-[10px] color text-white text-[12px] lg:w-[120px] lg:h-[32px] font-bold cursor-default inte text-sm">
             Mi perfil
@@ -34,8 +34,9 @@ export default function QuienSoy() {
               SRL
             </li>
             <li className="mt-6 decoration-dotted">
-              Consolidé la presencia de Physis en el mercado de software
-              agropecuario en nuestro país.
+              Gracias al equipo de profesionales que me acompaño, consolidé la
+              presencia de Physis en el mercado de software agropecuario en
+              nuestro país.
             </li>
             <li className="mt-6 decoration-dotted">
               Actualmente Physis creció de forma exponencial en todos los
@@ -59,8 +60,9 @@ export default function QuienSoy() {
               SRL.
             </li>
             <li className="mt-4 decoration-dotted text-xs">
-              Consolidé la presencia de Physis en el mercado de software
-              agropecuario en nuestro país.
+              Gracias al equipo de profesionales que me acompaño, consolidé la
+              presencia de Physis en el mercado de software agropecuario en
+              nuestro país.
             </li>
             <li className="mt-6 decoration-dotted">
               Physis creció exponencialmente en todos los mercados de la cadena
