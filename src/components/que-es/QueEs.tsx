@@ -15,7 +15,7 @@ export default function QueEs() {
             el mercado
           </p>
           <p className="mb-[80px] text-[12px] font-bold text-[#58595B] text-center ">
-            Para conocer mas sobre Physis, te invito a visitar su pagina web,{" "}
+            Para conocer mas sobre Physis, te invito a visitar su página web,{" "}
             <a
               className="underline decoration-solid"
               href="https://www.physis.com.ar/"
