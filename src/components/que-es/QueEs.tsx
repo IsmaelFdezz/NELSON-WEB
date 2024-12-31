@@ -5,7 +5,6 @@ export default function QueEs() {
   return (
     <div>
       <div className="h-[420px]  top-[1355px] rounded-t-[25px] bg-white z-20 overflow-hidden lg:relative lg:top-0 lg:hidden">
-    
         <div className="flex flex-col py-[46px] px-[29px] items-center font-bold justify-between h-full">
           <h3 className="text-[40px] text-[#58595B] text-center ">
             Qué es Physis?
@@ -17,7 +16,10 @@ export default function QueEs() {
           </p>
           <p className="mb-[80px] text-[12px] font-bold text-[#58595B] text-center ">
             Para conocer mas sobre Physis, te invito a visitar su pagina web,{" "}
-            <a className="underline decoration-solid" href="https://www.physis.com.ar/">
+            <a
+              className="underline decoration-solid"
+              href="https://www.physis.com.ar/"
+            >
               clickeando aquí
             </a>
             .
@@ -28,17 +30,17 @@ export default function QueEs() {
         </div>
       </div>
 
-      <div className="bg-white z-20 overflow-hidden hidden py-20 lg:flex flex-col relative h-auto" >
-        <img 
+      <div className="bg-white z-20 overflow-hidden hidden py-20 lg:flex flex-col relative h-auto">
+        <img
           src={logoPhysis}
           alt="Physis"
           className="w-1/3 left-2/3 top-1/8 opacity-20 absolute"
         />
 
         <div className="w-full mt-8 flex flex-row justify-end pr-16">
-            <img src={logoPhysisWeb} alt="Logo Physis" />
-          </div>
-        
+          <img src={logoPhysisWeb} alt="Logo Physis" />
+        </div>
+
         <div className="flex flex-col py-[46px] px-[29px] pb-28  items-left font-bold justify-between h-full">
           <h3 className="text-6xl text-[#58595B] text-left mb-5 ">
             Qué es Physis?
@@ -49,17 +51,17 @@ export default function QueEs() {
             el mercado
           </p>
           <p className="mb-[80px] text-sm font-bold mt-6 text-[#58595B] text-left ">
-            Para conocer mas sobre Physis, te invito a visitar su pagina web,{" "}
-            <a className="underline decoration-solid" href="https://www.physis.com.ar/">
+            Para conocer mas sobre Physis, te invito a visitar su página web,{" "}
+            <a
+              className="underline decoration-solid"
+              href="https://www.physis.com.ar/"
+            >
               clickeando aquí
             </a>
             .
           </p>
-      
         </div>
       </div>
     </div>
-
-    
   );
 }
