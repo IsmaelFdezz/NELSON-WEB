@@ -17,7 +17,7 @@ export default function Header() {
         <ContactButton></ContactButton>
       </header>
 
-      <header className="header z-50 w-1/2 rounded-[15px] justify-between h-full bg-white  hidden items-center lg:flex">
+      <header className="header z-50 w-[730px] rounded-[15px] justify-between h-full bg-white  hidden items-center lg:flex">
         <div className="w-1/4">
           <img className="w-[49px] ml-16" src={logoWeb} alt="Logo" />
         </div>

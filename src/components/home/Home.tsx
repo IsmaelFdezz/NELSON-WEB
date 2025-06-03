@@ -11,7 +11,7 @@ export default function Home() {
       >
         <div className="flex flex-col items-center mb-[100px]">
           <h3 className="chapaza text-6xl h-[65px] text-white font-[400] leading-[63.67px]">
-            Nelson Perez
+            Nelson Pérez
           </h3>
           <p className="font-[500] text-[14px] leading-[13.31px] text-white">
             Gerente de acopio de Physis Informatica
@@ -25,7 +25,7 @@ export default function Home() {
       >
         <div className="flex flex-col items-center mb-[100px] mr-44">
           <h3 className="chapaza text-[90px] h-[65px] text-white font-[400] leading-[63.67px]">
-            Nelson Perez
+            Nelson Pérez
           </h3>
           <p className="inter opacity-70 font-[400] mt-4 text-center text-[14px] leading-[13.31px] text-white w-[400px]">
             Gerente de acopio de Physis Informatica
