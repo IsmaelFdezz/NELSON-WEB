@@ -126,7 +126,7 @@ export default function QuienSoy() {
             className="w-[24px] h-[23px] lg:w-[52px] lg:h-[50px]"
           />
         </div>
-        <div className="m-5 text-white text-[10px] lg:text-xl inter font-bold hidden lg:flex">
+        <div className="m-5 text-white text-[10px] lg:text-xl inter hidden lg:flex">
           <ul className="list-disc ml-4">
             <li className="decoration-dotted">
               Soy analista programador senior, desarrollador e implementador de
