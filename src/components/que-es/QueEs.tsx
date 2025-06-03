@@ -41,16 +41,16 @@ export default function QueEs() {
           <img src={logoPhysisWeb} alt="Logo Physis" />
         </div>
 
-        <div className="flex flex-col py-[46px] px-[29px] pb-28  items-left font-bold justify-between h-full">
-          <h3 className="text-6xl text-[#58595B] text-left mb-5 ">
+        <div className="flex flex-col py-[46px] px-14 pb-28  items-left font-bold justify-between h-full">
+          <h3 className="text-8xl text-[#58595B] text-left mb-5 ">
             Qué es Physis?
           </h3>
-          <p className="text-sm font-bold w-1/2 text-[#58595B] flex items-left text-left ">
+          <p className="text-xl font-bold w-[551px] text-[#58595B] flex items-left text-left ">
             Physis Informática es una empresa dedicada al desarrollo de software
             y sus servicios complementarios, con más de 35 años de presencia en
             el mercado
           </p>
-          <p className="mb-[80px] text-sm font-bold mt-6 text-[#58595B] text-left ">
+          <p className="mb-[80px] text-xl font-bold mt-6 text-[#58595B] text-left ">
             Para conocer mas sobre Physis, te invito a visitar su página web,{" "}
             <a
               className="underline decoration-solid"

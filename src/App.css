@@ -1,47 +1,43 @@
 @font-face {
-    font-family: 'Chapaza';
-    src: url('../src/assets/fonts/Chapaza.ttf') format('truetype');
-    /* Add additional font formats if necessary */
-    /* Specify the correct path to the font files */
-  }
+  font-family: "Chapaza";
+  src: url("../src/assets/fonts/Chapaza.ttf") format("truetype");
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
+}
 
-  @font-face {
-    font-family: 'Inter-bold';
-    src: url('../src/assets/fonts/Inter_24pt-Regular.ttf') format('truetype');
-    /* Add additional font formats if necessary */
-    /* Specify the correct path to the font files */
-  }
-
-
+@font-face {
+  font-family: "Inter-bold";
+  src: url("../src/assets/fonts/Inter_24pt-Regular.ttf") format("truetype");
+  /* Add additional font formats if necessary */
+  /* Specify the correct path to the font files */
+}
 
 .chapaza {
-    font-family: 'Chapaza', sans-serif;
+  font-family: "Chapaza", sans-serif;
 }
 
 .button-gradient {
-    background: linear-gradient(180deg, #70A3E5 0%, #4888DC 100%);
-
+  background: linear-gradient(180deg, #70a3e5 0%, #4888dc 100%);
 }
 
 .--fondoDesktop {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    background-position-y: -117px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  background-position-y: -58px;
 }
 
 .input-shadow {
-    box-shadow: inset 0px 0px 37px -10px rgba(0,0,0,0.27);
+  box-shadow: inset 0px 0px 37px -10px rgba(0, 0, 0, 0.27);
 
-    padding: 6px;
-    font-size: 12px;
+  padding: 6px;
+  font-size: 12px;
 }
 
 .header {
-    box-shadow: 0 0 20px 14px rgba(0, 0, 0, 0.05);
-
+  box-shadow: 0 0 20px 14px rgba(0, 0, 0, 0.05);
 }
 
 .inter {
-    font-family: 'Inter-bold';
+  font-family: "Inter-bold";
 }

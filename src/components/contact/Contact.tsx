@@ -58,15 +58,15 @@ export default function Contact() {
     <div className="z-30 h-[580px]  bg-[#387DB6] top-[1734px] w-full lg:relative lg:top-0 ">
       <div className="flex flex-col mt-0 pt-[37px] m-[37px] h-[425px] lg:flex-row ">
         <div className="h-[68px] w-full flex flex-col items-center lg:w-1/2 lg:hidden">
-          <h3 className="font-bold text-[46px] text-white">Contacto</h3>
+          <h3 className="font-bold text-[46px] text-white">Contácto</h3>
           {/* <p className="text-center text-white text-[8px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
           </p> */}
         </div>
 
         <div className="h-[68px] w-full hidden flex-col items-center mt-32 lg:w-1/2 justify-self-center lg:flex">
-          <img src={logo} alt="Logo" className="w-20" />
-          <h3 className="font-bold text-8xl text-white">Contacto</h3>
+          <img src={logo} alt="Logo" className="w-32" />
+          <h3 className="font-bold text-8xl text-white">Contácto</h3>
           {/* <p className="text-center text-white text-l w-56">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
           </p> */}
