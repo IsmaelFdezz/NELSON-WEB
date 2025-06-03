@@ -117,7 +117,7 @@ export default function QuienSoy() {
       </div>
       <div className="bg-[#363636] w-[257px] h-[257px] rounded-[25px] lg:w-[507px] lg:h-[507px]">
         <div className="flex flex-row items-center m-5 gap-4">
-          <button className="w-[89px] h-[25px] bg-[#8F8F8F] rounded-[10px] color text-white text-[12px] lg:text-[24px] lg:w-[174px] lg:h-[46px] font-bold cursor-default inte text-sm">
+          <button className="w-[89px] h-[25px] bg-[#8F8F8F] rounded-[10px] color text-white text-[12px] lg:text-[24px] lg:w-[174px] lg:h-[46px] font-[600] cursor-default inte text-sm">
             ¿Quien soy?
           </button>
           <img
